@@ -1,0 +1,10 @@
+Can a guest make a donation?
+Will we require them to verify their emails?
+What campaign types are there?
+Do we have set durations or do we allow them to enter in the dates?
+Will we offer budle discounts?
+Will we offer a tiered raffle?
+Does the drawing occur automatically? 
+	Or does the campaign organizer click a button?
+		if they click a button: How long do we wait to notify the Campaign manager?
+									Do we automatically draw the raffle if too much time has passed?

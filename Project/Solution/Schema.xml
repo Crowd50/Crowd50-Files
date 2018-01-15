@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Project>
+    <Entity name="Users" alias="U">
+        <Property name="UserId" dataType="Int64" sqlDataType="bigint" primaryKey="identity(1, 1)" required="true"/>
+        <Property name="Username" dataType="string" sqlDataType="varchar(500)" required="true"/>
+        <Property name="FirstName" dataType="string" sqlDataType="varchar(100)" required="true"/>
+        <Property name="LastName" dataType="string" sqlDataType="varchar(100)" required="true"/>
+        <Property name="PrependSalt" dataType="string" sqlDataType="varchar(50)" required="true"/>
+        <Property name="Password" dataType="byte[]" sqlDataType="varbinary(max)" required="true"/>
+        <Property name="AppendSalt" dataType="string" sqlDataType="varchar(50)" required="true"/>
+        <Property name="EmailAddress" dataType="string" sqlDataType="varchar(125)" required="true"/>
+        <Property name="LastLogin" dataType="DateTime" sqlDataType="datetime" required="true"/>
+    </Entity>
+    <Entity name="Campaigns" alias="C">
+        <Property name="CampaignId" dataType="Int64" sqlDataType="bigint" required="true"/>
+        <Property name="CampaignOrganizer" dataType="string" sqlDataType="varchar(50)" required="true"/>
+        <Property name="CampaignName" dataType="string" sqlDataType="varchar(50)" required="true"/>
+        <Property name="CampaignType" dataType="string" sqlDataType="varchar(50)"/>
+        <Property name="StartDate" dataType="string" sqlDataType="datetime" required="true"/>
+        <Property name="EndDate" dataType="byte[]" sqlDataType="datetime" required="true"/>
+        <Property name="PercentageRate" dataType="string" sqlDataType="decimal(4, 2)" required="true"/>
+    </Entity>
+    <Entity name="PermissionAssignments" alias="PA">
+        <Property name="PermissionAssignmentId" dataType="Int64" sqlDataType="bigint"/>
+        <Property name="PermissionId" dataType="Int64" sqlDataType="bigint"/>
+        <Property name="UserId" dataType="Int64" sqlDataType="bigint"/>
+    </Entity>
+    <Entity name="Permissions" alias="P">
+        <Property name="PermissionId" dataType="Int64" sqlDataType="bigint"/>
+        <Property name="Name" dataType="string" sqlDataType="varchar(50)"/>
+        <Property name="Rank" dataType="Int16" sqlDataType="tinyint"/>
+    </Entity>
+    <Entity name="EmailVerificationCodes" alias="EVC">
+        <Property name="EmailVerificationCodeId" dataType="Int64" sqlDataType="bigint"/>
+        <Property name="UserId" dataType="Int64" sqlDataType="bigint" foreignKey="Users.UserId"/>
+        <Property name="DateCreated" dataType="DateTime" sqlDataType="datetime"/>
+        <Property name="VerificationCode" dataType="Guid" sqlDataType="uniqueidentifier"/>
+        <Property name="ExpirationDate" dataType="DateTime" sqlDataType="datetime"/>
+    </Entity>
+    <Entity name="ApplicationLogs" alias="AL">
+        <Property name="ApplicationLogId" dataType="Int64" sqlDataType="bigint"/>
+        <Property name="DateAndTime" dataType="DateTime" sqlDataType="datetime"/>
+        <Property name="User" dataType="Int64" sqlDataType="bigint" foreignKey="Users.UserId"/>
+        <Property name="Priority" dataType="Int16" sqlDataType="tinyint"/>
+        <Property name="Message" dataType="string" sqlDataType="varchar(max)"/>
+    </Entity>
+    <Entity name="DatabaseLogs" alias="DL">
+        <Property name="DatabaseLogId" dataType="Int64" sqlDataType="bigint"/>
+        <Property name="DateAndTime" dataType="DateTime" sqlDataType="datetime"/>
+        <Property name="User" dataType="Int64" sqlDataType="bigint" foreignKey="Users.UserId"/>
+        <Property name="Table" dataType="string" sqlDataType="varchar(30)"/>
+        <Property name="ActionType" dataType="string" sqlDataType="varchar(15)"/>
+        <Property name="Before" dataType="string" sqlDataType="xml"/>
+        <Property name="After" dataType="string" sqlDataType="xml"/>
+    </Entity>
+    <Entity name="Prizes" alias="PR">
+        <Property name="PrizeId" dataType="Int64" sqlDataType="bigint"/>
+        <Property name="CampaignId" dataType="Int64" sqlDataType="bigint" foreignKey="Campaigns.CampaignId"/>
+        <Property name="CampaignTierId" dataType="Int64" sqlDataType="bigint" foreignKey="CampaignTiers.CampaignTierId"/>
+        <Property name="Amount" dataType="decimal" sqlDataType="decimal(9, 2)"/>
+        <Property name="Placement" dataType="string" sqlDataType="varchar(15)"/>
+    </Entity>
+    <Entity name="CampaignTiers" alias="CT">
+        <Property name="CampaignTierId" dataType="Int64" sqlDataType="bigint"/>
+        <Property name="CampaignId" dataType="Int64" sqlDataType="bigint"/>
+        <Property name="TierAmount" dataType="decimal" sqlDataType="decimal(13,2)"/>
+    </Entity>
+    <Entity name="CampaignDiscounts" alias="CD">
+        <Property name="CampaignDiscountId" dataType="Int64" sqlDataType="bigint"/>
+        <Property name="CampaignId" dataType="Int64" sqlDataType="bigint"/>
+        <Property name="AmountOfTickets" dataType="Int64" sqlDataType="tinyint"/>
+        <Property name="Price" dataType="decimal" sqlDataType="decimal(6,2)"/>
+    </Entity>
+    <Entity name="Tickets" alias="T">
+        <Property name="TicketId" dataType="Int64" sqlDataType="bigint"/>
+        <Property name="CampaignId" dataType="Int64" sqlDataType="bigint"/>
+        <Property name="UserId" dataType="Int64" sqlDataType="bigint"/>
+        <Property name="GenerationDate" dataType="DateTime" sqlDataType="datetime"/>
+        <Property name="ValidationCode" dataType="Guid" sqlDataType="uniqueidentifier"/>
+    </Entity>
+</Project>

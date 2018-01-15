@@ -1,0 +1,33 @@
+﻿@using Crowd50.Models
+@model RegisterPO
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="~/Content/Login.css" rel="stylesheet" />
+<div class="login-clean">
+    @using (Html.BeginForm("Register", "Account", FormMethod.Post))
+    {
+        <h2 class="sr-only">Login Form</h2>
+        <div class="illustration">
+            <i class="glyphicon glyphicon-play-circle"></i>
+        </div>
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.FirstName, new { @class = "form-control", @placeholder = "First Name" })
+        </div>
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.LastName, new { @class = "form-control", @placeholder = "Last Name" })
+        </div>
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.EmailAddress, new { @class = "form-control", @placeholder = "Email Address" })
+        </div>
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.RegistrationPassword, new { @class = "form-control", @placeholder = "Password", @type="Password"})
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary btn-block" type="submit">Register</button>
+        </div>
+        <a href="#" class="forgot">Forgot your email or password?</a>
+    }
+</div>

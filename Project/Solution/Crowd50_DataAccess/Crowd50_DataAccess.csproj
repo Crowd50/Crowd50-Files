@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{73AAA362-DC40-4368-BBBD-0F1FD29A62ED}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Crowd50_DataAccess</RootNamespace>
+    <AssemblyName>Crowd50_DataAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapping">
+      <HintPath>..\Dependencies\AutoMapping.dll</HintPath>
+    </Reference>
+    <Reference Include="CommandExecution">
+      <HintPath>..\Dependencies\CommandExecution.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Layers\ApplicationLogsDataAccess.cs" />
+    <Compile Include="Layers\CampaignDiscountsDataAccess.cs" />
+    <Compile Include="Layers\CampaignsDataAccess.cs" />
+    <Compile Include="Layers\CampaignTiersDataAccess.cs" />
+    <Compile Include="Layers\DatabaseLogsDataAccess.cs" />
+    <Compile Include="Layers\EmailVerificationCodesDataAccess.cs" />
+    <Compile Include="Layers\PermissionAssignmentsDataAccess.cs" />
+    <Compile Include="Layers\PermissionsDataAccess.cs" />
+    <Compile Include="Layers\PrizesDataAccess.cs" />
+    <Compile Include="Layers\TicketsDataAccess.cs" />
+    <Compile Include="Layers\UsersDataAccess.cs" />
+    <Compile Include="Logging\Logger.cs" />
+    <Compile Include="Models\ApplicationLog.cs" />
+    <Compile Include="Models\Campaign.cs" />
+    <Compile Include="Models\CampaignDiscount.cs" />
+    <Compile Include="Models\CampaignTier.cs" />
+    <Compile Include="Models\DatabaseLog.cs" />
+    <Compile Include="Models\EmailVerificationCode.cs" />
+    <Compile Include="Models\Permission.cs" />
+    <Compile Include="Models\PermissionAssignment.cs" />
+    <Compile Include="Models\Prize.cs" />
+    <Compile Include="Models\Ticket.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

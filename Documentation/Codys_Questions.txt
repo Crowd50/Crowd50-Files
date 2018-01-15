@@ -1,0 +1,31 @@
+Category on GoFundMe - do we need that? --Andrew covered
+
+Alternative login features such as Facebook or Google? -MVC OAuth
+
+Kickstarter has a countdown for "live" campaigns - I think that's a good idea
+
+Do we want them to be able to connect with facebook or any other social media?
+
+Kickstarter has an option for "number of days" or "end on date and time" - I think that's a good idea. --Andrew covered
+
+Kickstarter campaigns only get funded if the goal is met, should we do something like this? - Personally I feel like its a hassel
+
+Kickstarter has a rules page, would we accomplish that same thing by the terms of use or should we do something similar? - I ask because of the multi-state platform this will end up being.
+
+I feel like both kickstarter and gofundme both dont cover a whole lot of information. I know personally I dont like filling in a bunch of information that is seemingly useless just to fill out more information when my project or charity profile gets approved. - I think we should account for all possibilities on the campaign page and leave it at that.
+
+Indiegogo does a percentage decrease when you go to start a funding campaign for charity, that's a good idea. If you're funding a project their percentage is 5%, if its a charity the percentage is 3%.
+
+Indiegogo has levels based on amounts of donations - We could do brackets of percentages for the winners to push donors to give more.
+
+Indiegogo also does a preview before the users campaign starts - I like that idea.
+
+Rockethub only does funding for legal companies and will only allow their campaign manager to set a goal of over 100K.
+
+Razoo does fundraising teams which I think is cool.
+
+Razoo's UI looks modern and clean but kind of busy.
+
+Crowdrise is part of gofundme - their UI's are different, but the idea is pretty much similar.
+
+Pledgemusic is specifically for music, but the platform is kind of the same, a bit more intensive on the campaign aspect.

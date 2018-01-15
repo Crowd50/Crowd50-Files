@@ -1,0 +1,14 @@
+C:\Users\Andrew\source\repos\Crowd50_Jobs\DatabaseRestoration\bin\Debug\DatabaseRestoration.exe.config
+C:\Users\Andrew\source\repos\Crowd50_Jobs\DatabaseRestoration\bin\Debug\DatabaseRestoration.exe
+C:\Users\Andrew\source\repos\Crowd50_Jobs\DatabaseRestoration\bin\Debug\DatabaseRestoration.pdb
+C:\Users\Andrew\source\repos\Crowd50_Jobs\DatabaseRestoration\obj\Debug\DatabaseRestoration.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\source\repos\Crowd50_Jobs\DatabaseRestoration\obj\Debug\DatabaseRestoration.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\source\repos\Crowd50_Jobs\DatabaseRestoration\obj\Debug\DatabaseRestoration.exe
+C:\Users\Andrew\source\repos\Crowd50_Jobs\DatabaseRestoration\obj\Debug\DatabaseRestoration.pdb
+C:\Users\Andrew\Documents\Code\_Source Control\Bitbucket\Crowd50\Project\Jobs\DatabaseRestoration\bin\Debug\DatabaseRestoration.exe.config
+C:\Users\Andrew\Documents\Code\_Source Control\Bitbucket\Crowd50\Project\Jobs\DatabaseRestoration\bin\Debug\DatabaseRestoration.exe
+C:\Users\Andrew\Documents\Code\_Source Control\Bitbucket\Crowd50\Project\Jobs\DatabaseRestoration\bin\Debug\DatabaseRestoration.pdb
+C:\Users\Andrew\Documents\Code\_Source Control\Bitbucket\Crowd50\Project\Jobs\DatabaseRestoration\obj\Debug\DatabaseRestoration.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\Documents\Code\_Source Control\Bitbucket\Crowd50\Project\Jobs\DatabaseRestoration\obj\Debug\DatabaseRestoration.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\Documents\Code\_Source Control\Bitbucket\Crowd50\Project\Jobs\DatabaseRestoration\obj\Debug\DatabaseRestoration.exe
+C:\Users\Andrew\Documents\Code\_Source Control\Bitbucket\Crowd50\Project\Jobs\DatabaseRestoration\obj\Debug\DatabaseRestoration.pdb

@@ -1,0 +1,11 @@
+C:\Users\Andrew\source\repos\Crowd50\Crowd50_BusinessLogic\bin\Debug\Crowd50_BusinessLogic.dll
+C:\Users\Andrew\source\repos\Crowd50\Crowd50_BusinessLogic\bin\Debug\Crowd50_BusinessLogic.pdb
+C:\Users\Andrew\source\repos\Crowd50\Crowd50_BusinessLogic\obj\Debug\Crowd50_BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\source\repos\Crowd50\Crowd50_BusinessLogic\obj\Debug\Crowd50_BusinessLogic.dll
+C:\Users\Andrew\source\repos\Crowd50\Crowd50_BusinessLogic\obj\Debug\Crowd50_BusinessLogic.pdb
+C:\Users\Andrew\Documents\Code\_Source Control\Bitbucket\Crowd50\Project\Solution\Crowd50_BusinessLogic\bin\Debug\Crowd50_BusinessLogic.dll
+C:\Users\Andrew\Documents\Code\_Source Control\Bitbucket\Crowd50\Project\Solution\Crowd50_BusinessLogic\bin\Debug\Crowd50_BusinessLogic.pdb
+C:\Users\Andrew\Documents\Code\_Source Control\Bitbucket\Crowd50\Project\Solution\Crowd50_BusinessLogic\obj\Debug\Crowd50_BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\Documents\Code\_Source Control\Bitbucket\Crowd50\Project\Solution\Crowd50_BusinessLogic\obj\Debug\Crowd50_BusinessLogic.dll
+C:\Users\Andrew\Documents\Code\_Source Control\Bitbucket\Crowd50\Project\Solution\Crowd50_BusinessLogic\obj\Debug\Crowd50_BusinessLogic.pdb
+C:\Users\Andrew\Documents\Code\_Source Control\Bitbucket\Crowd50\Project\Solution\Crowd50_BusinessLogic\obj\Debug\Crowd50_BusinessLogic.csprojResolveAssemblyReference.cache

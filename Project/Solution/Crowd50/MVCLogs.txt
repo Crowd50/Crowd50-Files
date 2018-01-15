@@ -1,0 +1,3 @@
+2018-01-07-DB Exception-Could not find stored procedure 'CREATE_NEW_USER'.
+2018-01-07-DB Exception-Violation of UNIQUE KEY constraint 'IX_UniqueEmails'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (andrew.leon@hotmail.com).
+The statement has been terminated.

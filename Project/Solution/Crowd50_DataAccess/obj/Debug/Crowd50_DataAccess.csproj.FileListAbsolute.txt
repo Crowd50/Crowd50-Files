@@ -1,0 +1,16 @@
+C:\Users\Andrew\source\repos\Crowd50\Crowd50_DataAccess\obj\Debug\Crowd50_DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\source\repos\Crowd50\Crowd50_DataAccess\obj\Debug\Crowd50_DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\source\repos\Crowd50\Crowd50_DataAccess\bin\Debug\Crowd50_DataAccess.dll
+C:\Users\Andrew\source\repos\Crowd50\Crowd50_DataAccess\bin\Debug\Crowd50_DataAccess.pdb
+C:\Users\Andrew\source\repos\Crowd50\Crowd50_DataAccess\bin\Debug\AutoMapping.dll
+C:\Users\Andrew\source\repos\Crowd50\Crowd50_DataAccess\bin\Debug\CommandExecution.dll
+C:\Users\Andrew\source\repos\Crowd50\Crowd50_DataAccess\obj\Debug\Crowd50_DataAccess.dll
+C:\Users\Andrew\source\repos\Crowd50\Crowd50_DataAccess\obj\Debug\Crowd50_DataAccess.pdb
+C:\Users\Andrew\Documents\Code\_Source Control\Bitbucket\Crowd50\Project\Solution\Crowd50_DataAccess\bin\Debug\Crowd50_DataAccess.dll
+C:\Users\Andrew\Documents\Code\_Source Control\Bitbucket\Crowd50\Project\Solution\Crowd50_DataAccess\bin\Debug\Crowd50_DataAccess.pdb
+C:\Users\Andrew\Documents\Code\_Source Control\Bitbucket\Crowd50\Project\Solution\Crowd50_DataAccess\bin\Debug\AutoMapping.dll
+C:\Users\Andrew\Documents\Code\_Source Control\Bitbucket\Crowd50\Project\Solution\Crowd50_DataAccess\bin\Debug\CommandExecution.dll
+C:\Users\Andrew\Documents\Code\_Source Control\Bitbucket\Crowd50\Project\Solution\Crowd50_DataAccess\obj\Debug\Crowd50_DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\Documents\Code\_Source Control\Bitbucket\Crowd50\Project\Solution\Crowd50_DataAccess\obj\Debug\Crowd50_DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\Documents\Code\_Source Control\Bitbucket\Crowd50\Project\Solution\Crowd50_DataAccess\obj\Debug\Crowd50_DataAccess.dll
+C:\Users\Andrew\Documents\Code\_Source Control\Bitbucket\Crowd50\Project\Solution\Crowd50_DataAccess\obj\Debug\Crowd50_DataAccess.pdb
